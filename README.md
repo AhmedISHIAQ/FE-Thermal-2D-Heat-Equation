@@ -136,11 +136,10 @@ FE_Thermal_2D/
 ├── check_source_error.py
 │
 ├── meshes/
-│   ├── square2x2.msh
-│   ├── square4x4.msh
-│   ├── square10x10.msh
-│   ├── square20x20.msh
-│   └── ...
+├── square2x2.msh
+├── square4x4.msh
+├── square10x10.msh
+├── square20x20.msh
 │
 ├── results/
 │   ├── temperature.pos
@@ -445,21 +444,6 @@ This confirms that the finite element implementation is converging correctly.
 
 The solver generates `.pos` files for visualization in Gmsh.
 
-These files are output files, so they may be ignored in Git unless a sample result is intentionally included.
-
-Recommended approach:
-
-- Keep source code and validation scripts in the repository.
-- Keep one sample result file in `results/`.
-- Ignore other generated `.pos` files.
-
-Example `.gitignore` rule:
-
-```gitignore
-*.pos
-!results/temperature.pos
-```
-
 ---
 
 ## 16. Documentation
@@ -495,7 +479,7 @@ The main achievements are:
 Prepared by:
 
 ```text
-YOUR NAME
+ISHIAQ Ahmed Olamide
 ```
 
 Course:
